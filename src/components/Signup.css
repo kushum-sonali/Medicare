@@ -1,0 +1,139 @@
+/* .main{
+    background-color:rgb(18,23,61);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+*{
+    margin:0;
+}
+body{
+    margin:0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(18,23,61);
+    /* justify-content: center; */
+     justify-content: space-evenly; 
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    /* align-content: center; */
+    text-align: center;
+}
+.container{
+display: flex;
+height: 300px;
+width:350px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+background-color:rgb(18,23,61);
+color:white;
+}
+.header{
+    height: 60px;
+    width:100px;
+    background-color: rgb(18,23,61);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-items: center;
+    color: aliceblue;
+
+    text-align: center; 
+}
+#doctor{
+    height: 40px;
+    width:150px;
+    color: rgb(242,62,121);
+    background-color:rgb(25,31,75) ;
+    border: navajowhite;
+}
+#doctor:hover{
+    color: aliceblue;
+}
+#patient{
+    height: 40px;
+    width:150px;
+    background-color:rgb(25,31,75);
+    color:white;
+    border:navajowhite;
+}
+#patient:hover{
+    color:rgb(242,62,121) ;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border: navajowhite;
+}
+.forget{
+    color: red;
+} 
+.footer{
+    color:white;
+    background-color: rgb(25,31,75);
+    margin-bottom: 0px;
+    height: 100px;
+    width: 100vw;
+    margin-bottom: -100px;  
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+#signup{
+    background-color: rgb(242,62,121);
+    height: 30px;
+    width:150px;
+   
+}
+#btn{
+    height:40px;
+    width: 300px;
+    background-color: rgb(242,62,121);
+    border: navajowhite;
+}
+#email{
+    background-color:rgb(15,20,54) ;
+    height: 40px;
+    width:300px;
+    color:white;
+    border: navajowhite;
+}
+ .password{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(18,23,61);
+    justify-content: space-between;
+    height:40px;
+    width:300px;
+    border: navajowhite;
+} 
+#pass{
+    background-color:rgb(15,20,54) ;
+    height: 40px;
+    width:300px; 
+    color: white;
+    border: navajowhite;
+}
+.Email{
+background-color: rgb(18,23,61);
+height: 40px;
+width: 300px;
+display: flex;
+align-items: center;
+border: navajowhite;
+}
+#i{
+    color:;
+}
+.bar{
+    height:50px;
+    width: 90px;
+}
